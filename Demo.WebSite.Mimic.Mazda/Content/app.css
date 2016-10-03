@@ -1,8 +1,40 @@
-﻿header {
+﻿/* 
+	Get rid of Navbar rounded corners 
+	http://stackoverflow.com/a/15275488/4035
+*/
+* {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+
+/*header {
 	background-color: black;
 	color: white;
 	padding: 20px;
 	text-align: center;
+}*/
+
+.navbar {
+	margin-bottom: 0;
+	padding: 30px 120px 15px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #bbb;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
 }
 
 footer {
