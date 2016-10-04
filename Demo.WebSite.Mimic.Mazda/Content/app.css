@@ -3,11 +3,36 @@
 	http://stackoverflow.com/a/15275488/4035
 */
 * {
-  -webkit-border-radius: 0 !important;
-     -moz-border-radius: 0 !important;
-          border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
 }
 
+.jumbotron {
+	background-image: url("../images/angela01.jpg");
+	background-size: cover;
+	height: 100vh;
+	margin-bottom: 0;
+}
+
+.title {
+	color: #FFFFFF;
+}
+
+.center {
+	margin: 0 auto;
+    width: 80%;
+}
+
+.productInfo {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+}
+
+.layout-dark {
+	background: #1b1b1b;
+}
 
 /*header {
 	background-color: black;
@@ -21,20 +46,20 @@
 	padding: 30px 120px 15px 10px;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-    color: #bbb;
+.navbar-inverse .navbar-nav > li > a {
+	color: #bbb;
 }
 
 @media (min-width: 768px) {
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
+	.navbar .navbar-nav {
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+	}
 
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
+	.navbar .navbar-collapse {
+		text-align: center;
+	}
 }
 
 footer {
@@ -43,9 +68,3 @@ footer {
 	padding: 20px;
 	text-align: center;
 }
-
-
-
-
-
-
